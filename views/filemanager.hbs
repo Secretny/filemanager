@@ -1,0 +1,21 @@
+<div class="left">
+    <h2>File manager</h2>
+</div>
+<table border="0">
+    <tr class="first">
+        <td>id</td>
+        <td>obraz</td>
+        <td>name</td>
+        <td>size</td>
+        <td>typ pliku</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    {{#each files}}
+    <tr>
+        {{> files}}
+    </tr>
+    {{/each}}
+    <script src='/js/delete.js'></script>
+</table>
