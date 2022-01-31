@@ -57,9 +57,8 @@ input{
 }
 
 .uploadForm{
-    width: 30vw;
+    width: 100vw;
     position: relative;
-    right: 320px;
     background-color: rgb(0, 179, 77);
 }
 table{
